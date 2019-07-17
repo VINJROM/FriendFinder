@@ -17,8 +17,7 @@ module.exports = function(app) {
         var userResponses = userInput.scores;
 
         // Computes best friend match
-        var matchName = "";
-        var matchImage = "";
+        var bestMatch = {};
         var totalDiff = Infinity;
 
         // Examines all friends in list
@@ -43,6 +42,6 @@ module.exports = function(app) {
         friends.push(userInput);
 
         // Sends appropriate response
-        res.json({ matchName: matchName, matchImage: matchImage });
+        res.json({ matchName: bestMatch.name, matchImage: bestMatch.photo });
     });
 };
