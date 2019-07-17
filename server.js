@@ -1,19 +1,17 @@
 // Pull required dependencies
 var express = require('express');
-var bodyParser = require('body-parser');
 var path = require('path');
 
 // Configure Express app
 var app = express();
-var PORT = process.env.PORT;
+var PORT = process.env.PORT || 8080;
 
 // Public directory to access CSS files
 app.use(express.static(path.join(__dirname, './app/public')));
 
 // Add middleware for parsing incoming request bodies
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.text());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // Add application routes
 require(path.join(__dirname, './app/routing/apiRoutes'))(app);

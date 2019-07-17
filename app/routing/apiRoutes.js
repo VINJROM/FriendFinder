@@ -1,6 +1,3 @@
-// Pull required dependencies
-var path = require('path');
-
 // Import list of friend entries
 var friends = require("../data/friends.js");
 
@@ -45,7 +42,7 @@ module.exports = function(app) {
         // Add new user
         friends.push(userInput);
 
-        // Send appropriate response
-        res.json({ status: 'OK', matchName: matchName, matchImage: matchImage });
+        // Sends appropriate response
+        res.json({ matchName: matchName, matchImage: matchImage });
     });
 };
