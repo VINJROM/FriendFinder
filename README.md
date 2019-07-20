@@ -10,6 +10,6 @@ This application is part of the University of Minnesota's Web Application Develo
 The result is a simple mock-dating app that quickly matches users based on a set of questions.
 
 # Improvements #
-I would like to add bamazonSupervisor.js where users can view top-grossing products and overhead costs.
+I would like to have match users based on other user input, but that's an assignment for another day!
 
  
