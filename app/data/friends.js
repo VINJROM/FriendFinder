@@ -1,7 +1,7 @@
 // Data structure that stores friends data
 var friendsArray = [{
-        name: 'Beyonce Knowles',
-        photo: 'http://www.billboard.com/files/styles/article_main_image/public/media/beyonce-feb-2014-billboard-650.jpg',
+        name: 'Oprah',
+        photo: 'https://pmcvariety.files.wordpress.com/2015/12/oprah-variety-power-of-women-charity.jpg?w=1000',
         scores: [
             '5',
             '4',
@@ -16,8 +16,8 @@ var friendsArray = [{
         ]
     },
     {
-        name: 'Adele Adkins',
-        photo: 'https://i1.imgiz.com/data/videoshots/6829/6829475-6461.jpg',
+        name: 'Taylor Swift',
+        photo: 'https://media.pitchfork.com/photos/5d3750051852280008e542cc/2:1/w_790/Taylor-Swift.jpg',
         scores: [
             '5',
             '2',
@@ -32,8 +32,24 @@ var friendsArray = [{
         ]
     },
     {
-        name: 'Kermit the Frog',
-        photo: 'http://i.dailymail.co.uk/i/pix/2015/09/02/08/2BE5406100000578-3218820-image-m-25_1441179775589.jpg',
+        name: '50 Cent',
+        photo: 'https://djbooth.net/.image/t_share/MTUzNDg2MDI5MzI4NjIyNzkw/50-cent-best-musicjpg.jpg',
+        scores: [
+            '3',
+            '3',
+            '3',
+            '1',
+            '4',
+            '3',
+            '3',
+            '1',
+            '1',
+            '5'
+        ]
+    },
+    {
+        name: 'Alf',
+        photo: 'https://thenypost.files.wordpress.com/2019/06/alf-puppet-alien.jpg?quality=90&strip=all&w=618&h=410&crop=1',
         scores: [
             '5',
             '5',
